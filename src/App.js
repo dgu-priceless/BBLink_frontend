@@ -14,7 +14,7 @@ import PersonalInfo from './pages/PersonalInfo';
 import MainPage from './pages/MainPage';
 import ToggleSwitch from './components/ToggleSwitch'
 import React from 'react';
-import { useState } from 'react';
+
 import OrderComplete from './pages/OrderComplete';
 import DeliveryNow from './pages/DeliveryNow';
 
@@ -72,7 +72,7 @@ function App(){
     <Route path="/storeinfo" element={<StoreInfo/>}/>
     <Route path="/storereview" element={<StoreReview/>}/>
   </Routes>
-  {/* <BottomNav/> */}
+  <BottomNav/>
   {/* <RouteTest/>
 
   <Users />; */}
@@ -130,5 +130,8 @@ function App(){
  </BrowserRouter>
  );
 }
+
+
+
 
 export default App;
