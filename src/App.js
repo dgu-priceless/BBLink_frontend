@@ -33,6 +33,7 @@ import StoreInfo from "./pages/StoreInfo";
 import StoreReview from "./pages/StoreReview";
 import BottomNav from "./components/BottomNav";
 import Review from "./pages/Review";
+import MainPage2 from "./pages/MainPage2";
 function App() {
   return (
     <>
@@ -41,6 +42,7 @@ function App() {
         <div>
           <Routes>
             <Route path="/MainPage" element={<MainPage />} />
+            <Route path="/MainPage2" element={<MainPage2 />} />
             <Route path="/TwinkleOrder" element={<TwinkleOrder />} />
             <Route path="/WriteReview" element={<WriteReview />} />
             <Route path="/MyPage" element={<MyPage />} />

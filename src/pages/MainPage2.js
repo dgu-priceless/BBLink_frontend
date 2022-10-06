@@ -1,9 +1,8 @@
 import React from 'react';
 import SearchInput from '../components/SearchInput';
-import HeadButton from '../components/HeadButton';
 import {useNavigate} from 'react-router-dom';
 import styled from 'styled-components'; 
-const MainPage=()=> {
+const MainPage2=()=> {
     const navigate=useNavigate();
 
     const StyledButton = styled.button`
@@ -40,7 +39,7 @@ font-weight: 700;
 <center>
     <br/>
 
-    <p style={{ fontSize: 12 }}>
+    <p style={{ fontSize: 13 }}>
     ▼서울특별시 중구 장충동2가 193-86 현대빌라 201호
       </p>
 
@@ -65,12 +64,12 @@ navigate('/CategoryPage')
 }
 }>포장</StyledButton>
 
- <br/>
- <br/>
- <StyledButton3 onClick={()=>{
-navigate('/DeliveryNow')
-}
-}>현재 배달현황 확인하기</StyledButton3>
+   <img className="deliverynow" src="img/deliv.png" height='190' width='350'/>
+       
+        <p style={{ fontSize: 21 }}>
+        음식이 10분 뒤에 도착할 예정입니다. {"\n"}
+        잠시만 기다려주세요! {"\n"}
+      </p>
 </center>
 <br/>
 <br/>
@@ -78,4 +77,4 @@ navigate('/DeliveryNow')
  </div>
  );
 }
-export default MainPage;
+export default MainPage2;

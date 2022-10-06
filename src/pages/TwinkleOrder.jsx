@@ -6,9 +6,9 @@ import { useNavigate } from 'react-router-dom';
 
 const StyledButton2 = styled.button`
 height: 60px;
-width: 80px;
+width: 60px;
 background-color: #ffef82;
-font-size: 20px;
+font-size: 15px;
 font-weight: 700;
 font-color:black;
 `;
@@ -35,8 +35,8 @@ function TwinkleOrder() {
         <br/>
         <br/>
         
-        <img className="red heart" src="img/red heart.png" height='50' width='50'/>
-        &nbsp; &nbsp; 
+        <img className="red heart" src="img/red heart.png" height='40' width='40'/>
+        &nbsp; 
         <StyledButton
           onClick={() => {
             navigate("/TwinkleReorder");
@@ -50,16 +50,16 @@ function TwinkleOrder() {
         <br/>
         <br/>
 
-        <img className="red heart" src="img/red heart.png" height='50' width='50'/>
-        &nbsp; &nbsp; 
+        <img className="red heart" src="img/red heart.png" height='40' width='40'/>
+        &nbsp; 
         <StyledButton>엽기떡볶이 동대문점</StyledButton>
         &nbsp; &nbsp; 
         <StyledButton2>삭제</StyledButton2>
         <br/>
         <br/>
 
-        <img className="red heart" src="img/red heart.png" height='50' width='50'/>
-        &nbsp; &nbsp; 
+        <img className="red heart" src="img/red heart.png" height='40' width='40'/>
+        &nbsp; 
         <StyledButton>맥도날드 명동점</StyledButton>
         &nbsp; &nbsp; 
         <StyledButton2>삭제</StyledButton2>
