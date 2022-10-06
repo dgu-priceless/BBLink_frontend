@@ -10,7 +10,7 @@ const BottomNav = () => {
     <nav className="wrapper">
       {/* 하단 네비게이션 최상위 태그 */}
       <div>
-        <Link to="/MainPage" className="nav-link">
+        <Link to="/MainPage2" className="nav-link">
         <FontAwesomeIcon icon="home" /> {/* 네비게이션을 구성하고 있는 하나의 버튼 */}
         </Link>
       </div>
